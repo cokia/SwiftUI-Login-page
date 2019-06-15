@@ -4,6 +4,8 @@
 </p>
 
 > Simple login page UI made with SWIFT UI :) 
+> It is only working on  **Xcode 11 BETA and up to IOS 13**
+
 
 ## Author
 
