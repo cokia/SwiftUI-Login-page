@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A886782422B55FCF00F9426E /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A886782322B55FCF00F9426E /* CircleImage.swift */; };
 		A89EF59422B48E3C00449F33 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89EF59322B48E3C00449F33 /* AppDelegate.swift */; };
 		A89EF59622B48E3C00449F33 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89EF59522B48E3C00449F33 /* SceneDelegate.swift */; };
 		A89EF59822B48E3C00449F33 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89EF59722B48E3C00449F33 /* ContentView.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A886782322B55FCF00F9426E /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		A89EF59022B48E3C00449F33 /* SwiftUI-Login-page.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-Login-page.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A89EF59322B48E3C00449F33 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A89EF59522B48E3C00449F33 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 		A89EF59222B48E3C00449F33 /* SwiftUI-Login-page */ = {
 			isa = PBXGroup;
 			children = (
+				A886782322B55FCF00F9426E /* CircleImage.swift */,
 				A89EF59322B48E3C00449F33 /* AppDelegate.swift */,
 				A89EF59522B48E3C00449F33 /* SceneDelegate.swift */,
 				A89EF59722B48E3C00449F33 /* ContentView.swift */,
@@ -147,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A89EF59422B48E3C00449F33 /* AppDelegate.swift in Sources */,
+				A886782422B55FCF00F9426E /* CircleImage.swift in Sources */,
 				A89EF59622B48E3C00449F33 /* SceneDelegate.swift in Sources */,
 				A89EF59822B48E3C00449F33 /* ContentView.swift in Sources */,
 			);
@@ -285,10 +289,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "ios-login-page/Preview\\ Content";
+				DEVELOPMENT_ASSET_PATHS = "SwiftUI-Login-page/Preview\\ Content";
 				DEVELOPMENT_TEAM = 9GW34P3A2G;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "ios-login-page/Info.plist";
+				INFOPLIST_FILE = "SwiftUI-Login-page/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,10 +309,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "ios-login-page/Preview\\ Content";
+				DEVELOPMENT_ASSET_PATHS = "SwiftUI-Login-page/Preview\\ Content";
 				DEVELOPMENT_TEAM = 9GW34P3A2G;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "ios-login-page/Info.plist";
+				INFOPLIST_FILE = "SwiftUI-Login-page/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

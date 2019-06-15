@@ -11,8 +11,11 @@ import SwiftUI
 struct ContentView : View {
     var body: some View {
         Group {
+
         VStack {
             
+            CircleImage().offset(x: 0, y: -100).padding(.bottom, -130)
+            .padding(40)
             TextField(.constant("ID"))
                 .padding()
                 .padding(5)
@@ -39,16 +42,21 @@ struct ContentView : View {
                 Group {
                 Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
                     Text("Facebook 로그인")
+                        .color(.white)
                         .padding()
                         .padding(2)
-                        .border(Color.blue, width: 3, cornerRadius: 100)     .padding(4)
+                        .border(Color.blue, width: 3)
+                        .background(Color.blue)
+                        .cornerRadius(100)
+                        .padding(4)
                     }
                     
                 }
                 
 
                 Button(action: {}) {
-                    Text("  Google 로그인  ")}
+                    Text("  Google 로그인  ")
+                    .color(.white)}
                     .padding()
                     .padding(2)
                     .border(Color.red, width: 3)
@@ -57,10 +65,13 @@ struct ContentView : View {
                     .padding(4)
 
                 Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
-                    Text("   Kakao 로그인   ")}
+                    Text("   Kakao 로그인   ")
+                    .color(.white)}
                     .padding()
                     .padding(2)
-                    .border(Color.yellow, width: 3, cornerRadius: 100)
+                    .border(Color.yellow, width: 3)
+                    .background(Color.yellow)
+                    .cornerRadius(100)
                     .padding(4)
                     
 
